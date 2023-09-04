@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api\V1;
 
-use App\Models\Information;
+use App\Http\Controllers\Controller;
+use App\Models\Contacts;
 use Illuminate\Http\Request;
 
-class InformationController extends Controller
+class ContactsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +35,7 @@ class InformationController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Information $information)
+    public function show(Contacts $contacts)
     {
         //
     }
@@ -42,7 +43,7 @@ class InformationController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Information $information)
+    public function edit(Contacts $contacts)
     {
         //
     }
@@ -50,7 +51,7 @@ class InformationController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Information $information)
+    public function update(Request $request, Contacts $contacts)
     {
         //
     }
@@ -58,7 +59,7 @@ class InformationController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Information $information)
+    public function destroy(Contacts $contacts)
     {
         //
     }
