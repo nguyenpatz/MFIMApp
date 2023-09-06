@@ -13,7 +13,7 @@ class UsersController extends Controller
 
     public function index()
     {
-        return new UserCollection(User::all());
+        return new UserCollection(User::paginate());
     }
 
     public function create()
