@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api\V1;
 
-use App\Models\BusinessOpportunities;
+use App\Http\Controllers\Controller;
+use App\Models\Information;
 use Illuminate\Http\Request;
 
-class BusinessOpportunitiesController extends Controller
+class InformationController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +35,7 @@ class BusinessOpportunitiesController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(BusinessOpportunities $businessOpportunities)
+    public function show(Information $information)
     {
         //
     }
@@ -42,7 +43,7 @@ class BusinessOpportunitiesController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(BusinessOpportunities $businessOpportunities)
+    public function edit(Information $information)
     {
         //
     }
@@ -50,7 +51,7 @@ class BusinessOpportunitiesController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, BusinessOpportunities $businessOpportunities)
+    public function update(Request $request, Information $information)
     {
         //
     }
@@ -58,7 +59,7 @@ class BusinessOpportunitiesController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(BusinessOpportunities $businessOpportunities)
+    public function destroy(Information $information)
     {
         //
     }

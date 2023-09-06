@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api\V1;
 
-use App\Models\Business;
+use App\Http\Controllers\Controller;
+use App\Models\MemberShipCards;
 use Illuminate\Http\Request;
 
-class BusinessController extends Controller
+class MemberShipCardsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +35,7 @@ class BusinessController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Business $business)
+    public function show(MemberShipCards $memberShipCards)
     {
         //
     }
@@ -42,7 +43,7 @@ class BusinessController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Business $business)
+    public function edit(MemberShipCards $memberShipCards)
     {
         //
     }
@@ -50,7 +51,7 @@ class BusinessController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Business $business)
+    public function update(Request $request, MemberShipCards $memberShipCards)
     {
         //
     }
@@ -58,7 +59,7 @@ class BusinessController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Business $business)
+    public function destroy(MemberShipCards $memberShipCards)
     {
         //
     }
